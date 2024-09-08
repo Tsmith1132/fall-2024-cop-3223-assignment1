@@ -52,6 +52,7 @@ double calculatePerimeter(){
 	return difficulty;
 }
 
+// finds the area of the circle based off the points entered
 double calculateArea(){
 	double pointx1, pointy1, pointx2, pointy2;
 	
@@ -77,6 +78,7 @@ double calculateArea(){
 	return difficulty;
 }
 
+// finds the width of the based off the points entered 
 double calculateWidth(){
 	double pointx1, pointy1, pointx2, pointy2;
 	
@@ -101,6 +103,7 @@ double calculateWidth(){
 	return difficulty;
 }
 
+// finds the height based of the points entered
 double calculateHeight(){
 	double pointx1, pointy1, pointx2, pointy2;
 	
@@ -124,6 +127,8 @@ double calculateHeight(){
 	
 	return difficulty;
 }
+
+// calls all functions
 int main(int argc, char **argv){
 	calculateDistance();
 	calculatePerimeter();
